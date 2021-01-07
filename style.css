@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital@1&display=swap&family=Big+Shoulders+Stencil+Text&display=swap');
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.795)),url("./img2.jpg");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    font-family: Georgia, 'Times New Roman', Times, serif ;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+}
+
+.form{
+    background-color: white;
+    border: 2px solid rgb(194, 194, 194);
+    padding:20px;
+
+}
+
+.site-head h1{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+}
+
+.form-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+
+.form-sect-1 input, .form-sect-2 input
+{
+    height:40px;
+    width:200px;
+}
+
+input{
+    background-color: white;
+    margin: 10px 0px;
+    outline: none;
+    border:2px solid rgb(155, 155, 155);
+    border-radius: 5px;
+    text-align: center;
+}
+
+input:focus{
+    border-color: rgb(105, 105, 105);
+    outline-color: rgb(110, 110, 110);
+    box-shadow: 0px 1px 2px 0px rgb(194, 194, 194);
+}
+
+input[type="file"]{
+    height: 30px;
+    width:60%;
+    margin:30px 0px 0px 30px;
+    outline: none;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(236, 234, 234);
+}
+
+.form-sect-6{
+    margin-left:20px;
+    background-color: rgb(240, 234, 234);
+}
+
+label{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+label:hover{
+    color:rgb(58, 58, 58);
+}
+
+select{
+    width:100%;
+    height: 35px;
+    font-size: 17px;
+    outline: none;
+    font-weight: lighter;
+    color:rgb(112, 112, 112);
+}
+
+.prof-det{
+    max-width: fit-content;
+    display: flex;
+    flex-direction: row;
+}
+
+.gender-radius, .hob-radius{
+    position: relative;
+    left:20px;
+}
+
+.gender-radius .gend, .hob-radius input{
+    margin:0 14px;
+}
+
+textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    resize: none;
+    border:2px solid rgb(180, 180, 180);
+}
+
+textarea:focus{
+    outline-color:rgb(146, 146, 146) ;
+}
+
+button{
+    height:35px;
+    width:100%;
+    margin-top:14px;
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background-color: rgb(199, 199, 199);
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(150, 148, 148);
+}
+
+footer .footer {
+    position: fixed;
+    left: 0;
+    bottom:0;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding:10px;
+    font-family: Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}  

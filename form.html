@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>20mx227_Practice_Assignment_4</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="site-head">
+                <h1>Resume Submission Form</h1>
+            </div>
+        </header>
+        <div class="asst-container">
+            <section class="form-section">
+                <div class="form">
+                    <form action="" method="POST" enctype="multipart/form-data">
+                        <div class="form-div">
+                            <div class="form-sect-1">
+                                <input type="text" spellcheck="false" name="fname" placeholder="First Name" class="first-name" required/>
+                                <input type="text" spellcheck="false" name="lname" placeholder="Last Name" class="last-name"/>
+                            </div>
+                            <div class="form-sect-2">
+                                <input type="email" placeholder="Email" name="mail" id="email" required />
+                                <input type="tel" name="mobileno" placeholder="Mobile No" required />
+                            </div>
+                            <div class="form-sect-02">
+                                <select name="district" id="district">
+                                    <option value="">District</option>
+                                    <option value="Chennai">Chennai</option>
+                                    <option value="Coimbatore">Coimbatore</option>
+                                    <option value="Kanya Kumari">Kanya kumari</option>
+                                    <option value="Madurai">Madurai</option>
+                                    <option value="Salem">Salem</option>
+                                    <option value="Theni">Theni</option>
+                                    <option value="Tirunelveli">Tirunelveli</option>
+                                    <option value="Thoothukudi">Thoothukudi</option>
+                                </select>
+                           </div>    
+                           <br> 
+                           <div class="form-sect-3">
+                                <label class="gen1" for="gender">Gender : </label>  
+                                <span class="gender-radius">
+                                    <label class="gend" for="male"><input type="radio" id="male" name="gender" value="male" /> Male</label>
+                                    <label class="gend" for="female"><input type="radio" id="female" name="gender" value="female" /> Female</label>
+                                    <label class="gend" for="others"><input type="radio" id="others" name="gender" value="others" /> Others</label>
+                                </span>
+                            </div>
+                            <br>
+                           <div class="form-sect-4">
+                                <label for="hobbies">Hobies : </label>
+                                <span class="hob-radius">
+                                    <input type="checkbox" name="reading" id="reading" value="Reading"/><label for="reading">Reading</label>
+                                    <input type="checkbox" name="typing" id="typing" value="Typing"/><label for="typing">Typing</label>
+                                    <input type="checkbox" name="watching" id="watching" value="Watching"/><label for="watching">Watching</label>
+                                </span>
+                           </div>    
+                           <br>
+                           <div class="prof-det">
+                                <div class="form-sect-5">        
+                                    <textarea name="description" class="desc" id="query" placeholder="Description (Not Compulsory)" cols="27" rows="5"></textarea>
+                                </div>
+                                <div class="form-sect-6">
+                                    <input type="file" title="Select Image" name="userimage" id="profile" class="user-image">
+                                </div>
+                           </div>
+                        </div>
+                        <button type="submit" name="send">Upload</button>
+                    </form>
+            </section>
+        </div>
+        <footer>
+            <div class="footer">
+                <h4>Ajai J A - 20MX227</h4> 
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
